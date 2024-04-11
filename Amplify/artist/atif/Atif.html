@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amplify</title>
+          <!-- icon link -->
+     <link rel = "icon" href ="/assets/amplify.png"  type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+   <style>
+           header .song_slide::before{
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 300px;
+ left: 200px;
+ top: 20px;
+ background: url('/assets/artist/atif.png');
+ z-index: -1;
+}
+   </style>
+    
+</head>
+<body>
+    <header>
+        <div class="menu_slide">
+            <h1><img src="/assets/amplify-1.png" alt=""></h1>
+            <h6 id="menu_list_active_button"><i class="bi bi-music-note-list"></i></h6>
+            <div class="playlist">
+                <h4><span></span><i class="bi bi-house-door"></i><a href="/index.html">Home</a></h4>
+                <h4><span></span><i class="bi bi-disc-fill"></i><a href="/albums/albums.html">Album</a></h4>
+                <h4 class="active"><span></span><i class="bi bi-people-fill"></i><a href="/artist/artist.html">Artists</a></h4>
+         
+            </div>
+
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="Arabic" title="Arabic_Kuthu">
+                    <h5>
+                        Arabic Kuthu
+                        <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                    </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                      <!-- <i class="bi bi-pause-circle-fill"></i> -->
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="Justin-Bieber" title="10,000 hour">
+                        <h5>
+                            Arabic_Kuthu
+                            <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                        </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="brown" title="brown-munde">
+                    <h5>
+                        Arabic_Kuthu
+                        <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                    </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="junoon" title="Maiya-menu">
+                    <h5>
+                       Arabic_Kuthu
+                        <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                    </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="honey" title="bhool-bhulaiya-2">
+                    <h5>
+                        Arabic_Kuthu
+                        <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                    </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="./assets/songs/Arabic_Kuthu.jpg" alt="AP" title="Stereo-Hearts">
+                    <h5>
+                        Arabic_Kuthu
+                        <div class="subtitle">Jonita Gandhi, Anirudh</div> 
+                    </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                </li>
+               
+
+            </div>
+            </div>
+
+       <!-- popular songs -->
+
+            <div class="song_slide">
+                <nav>
+                    <ul>
+                        <li><h4 class="active3"><a href="/index.html">DISCOVERY</a></h4></li>
+                        <li><h4> <a href="/trending/trending.html">TRENDING</a><span></span></h4></li>
+                        <li><h4><a href="/mood/mood.html">MOOD</a></h4></li>
+                    </ul>
+                    
+                   
+
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="Search music....">
+                        <div class="search_results">
+                        <!-- <a href="" class="card">
+                            <img src="./assets/songs/1.jpg" alt="">
+                            <div class="content">
+                                Arabic Kuthu
+                                <div class="subtitle">Jonita Gandhi, Anirudh</div>
+                            </div>
+                        </a> -->
+                        </div>  
+                    </div>
+                    <div class="user">
+                        <!-- <img src="./assets/amplify.png" alt="User" title="Honey singh"> -->
+                        <!-- <i class="bi bi-list"></i> -->
+                    </div>
+                </nav>
+                <div class="content">
+                    <h1>Atif-aslam</h1>
+                    <p>
+                        Music is something that should give you peace - Atif aslam
+                        
+                    </p>
+                    
+                    <div class="buttons">
+                        <button>PLAY</button>
+                      
+                    </div>
+                </div>
+                <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular song</h4>
+                        <div class="btn_s">        
+                                                   
+                        <a href="#first"><i left="left_scroll"class="bi bi-arrow-left-short"></i></a>
+                        <a href="#last"><i left="right_scroll"class="bi bi-arrow-right-short"></i></a>
+                                   
+                   
+                       
+                        </div>
+                    </div>
+                    <div class="pop_song">
+                        <div class="mySlides">
+                        <li class="songItem" id="first">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                    </div>
+                    <div class="mySlides">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="8"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                    </div>
+
+                    <div class="mySlides">
+                    <li class="songItem">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="9"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                    </div>
+                    <div class="mySlides">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="10"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                    </div>
+                    
+                    <div class="mySlides">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="11"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                    </div>
+
+                    <div class="mySlides">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="./assets/songs/de-tali.jpg" alt="honey">
+                                <i class="bi playListplay bi-play-circle-fill" id="12"></i>
+                            </div>
+                            <h5>De-tali
+                                <br>
+                                <div class="subtitle">Honey-singh</div> 
+                            </h5>
+                        </li>
+                       </div>
+                   
+                    </div>
+                </div>
+
+                <!-- popular artist -->
+
+                <div class="popular_artists">
+                    <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="btn_s">
+                           <a href="#alen"><i id="pop_song_left" class="bi bi-arrow-left-short"></i></a> 
+                            <a href="#kirtidan"><i id="pop_song_right" class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <li id="#alen">
+                            <a href="/artist/alen/Alen.html"><img src="/artist/alen/Alen_img/5.jpg" alt="Alen-Walker" title="Alen-Walker"></a> 
+                         </li>
+                         <li>
+                             <a href="#"><img src="/assets/artist/atif-aslam.jpg" alt="Atif-aslam" title="Atif-aslam"></a>
+                         </li>
+                         <li>
+                             <a href="/artist/kk/kk.html"><img src="/assets/artist/kk.jpg" alt="Krishnakumar" title="Krishnakumar Kunnath(kk)"></a>
+                         </li>
+                         <li>
+                            <a href="/artist/diljit/diljit.html"><img src="/assets/artist/diljit-singh.jfif" alt="Diljit-singh" title="Diljit-singh"></a> 
+                         </li>
+                         <li>
+                             <a href="/artist/jubin/jubin.html"><img src="/assets/artist/jubin-nautiyal.jpg" alt="Jubin-nautiyal" title="Jubin-nautiyal"></a>
+                         </li>
+                         <li>
+                             <a href="/artist/shreya/shreya.html"><img src="/assets/artist/shreya-ghoshal.jfif" alt="Shreya-ghoshal" title="Shreya-ghoshal"></a>
+                         </li>
+                         <li>
+                             <a href="/artist/smw/smw.html"><img src="/assets/artist/sidhu-mooswala.jfif" alt="sidhu-mooswala" title="Sidhu moosewala"></a>
+                         </li>
+                         <li>
+                             <a href="/artist/guru/guru.html"><img src="/assets/artist/gururandhava.jpg" alt="guru randhava" title="Guru randhava"></a>
+                         </li>
+                         <li>
+                             <a href="/artist/arijit/Arijit.html"><img src="/assets/artist/arijit-singh.jpg" alt="Arijit-singh" title="Arijit-singh"></a>
+                           
+                         </li>
+                         <li id="kirtidan">
+                            <a href="/artist/kirtidan/honey.html"><img src="/assets/artist/honey-singh-1280.jpg" alt="Kirtidan-Gadhvi" title="Kirtidan Gadhvi"></a>
+                         </li>
+                     
+                    
+
+                    </div>
+                </div>
+            </div>
+       
+            <div class="master_play">
+                <div class="wave" id="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                
+                
+                <img src="/artist/atif/atif_img/1.jpg" alt="Arabic" id="poster_master_play">
+                <h5 id="title">
+                    Dill meri na sune
+                    <div class="subtitle">Atif aslam</div> 
+                </h5>
+                <div class="icon">  
+                    <i class="bi shuffle bi-music-note-beamed">next</i>
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i class="bi bi-play-fill" id="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                    <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" value="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div> 
+                </div>
+                <span id="currentEnd">0:00</span>
+                <div class="vol">
+                    <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                    <input type="range" id="vol" min="0" value="30" max="100" value="100">
+                    <!-- <div class="vol_bar"></div>
+                    <div class="dot"></div> -->
+                </div>
+            </div>
+        
+    </header>
+
+<script src="./atif.js"></script>
+<script>
+    let menu_list_active_button = document.getElementById('menu_list_active_button');
+    let menu_slide = document.getElementsByClassName('menu_slide')[0];
+
+    menu_list_active_button.addEventListener('click', () => {
+        menu_slide.style.transform = "unset";
+        menu_list_active_button.style.opacity = 0;
+    });
+
+    let song_slide = document.getElementsByClassName('song_slide')[0];
+
+    song_slide.addEventListener('click', () => {
+        menu_slide.style.transform = "translateX(-100%)";
+        menu_list_active_button.style.opacity = 1;
+    });
+   
+</script>
+</body>
+</html>
